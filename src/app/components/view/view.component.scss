@@ -1,0 +1,100 @@
+$ui-primary: #000000;
+
+.sphere {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  cursor: move;
+}
+
+.btn {
+  padding: 0.8rem;
+  background-color: $ui-primary;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background: #494467;
+    color: #ccd6f6;
+  }
+
+  svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+.left-btn {
+  position: fixed;
+  top: 50%;
+  left: 1rem;
+}
+.right-btn {
+  position: fixed;
+  top: 50%;
+  right: 1rem;
+}
+
+.center-btn {
+  position: fixed;
+  display: flex;
+  button {
+    margin-left: 1rem;
+    width: 5rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 240px) {
+    top: 90%;
+    right: 30%;
+  }
+  @media screen and (min-width: 320px) {
+    top: 90%;
+    right: 30%;
+  }
+  @media screen and (min-width: 480px) {
+    top: 90%;
+    right: 30%;
+  }
+  @media screen and (min-width: 768px) {
+    top: 90%;
+    right: 30%;
+  }
+  @media screen and (min-width: 1024px) {
+    top: 95%;
+    right: 40%;
+  }
+}
+
+.control-info {
+  position: fixed;
+  right: 50%;
+  transform: translateX(50%);
+  text-align: center;
+  background-color: $ui-primary;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  color: #ccd6f6;
+  padding: 0.5rem 1rem;
+
+  @media (min-width: 768px) {
+    width: calc(100% - 2rem);
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  @media screen and (min-width: 1024px) {
+    width: calc(100% - 2rem);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+  }
+}
