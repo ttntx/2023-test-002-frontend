@@ -1,3 +1,12 @@
+Report:
+- Record how many hours you spent on the project:
+ + Research: 4h
+ + Implement: 4h
+ + Self review: 1h
+- Record what you would improve on if you had more time:
+ + Move to location when clicking on image
+ + Add a description to each aisle when looking at them
+
 # 2023Test002Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
